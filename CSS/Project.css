@@ -1,0 +1,80 @@
+#img1
+{
+    height: 120px;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+.homeLink
+{
+    color: rgb(0, 150, 255);
+    margin-right: 500px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.signInLink
+{
+    color: rgb(0, 150, 255);
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.signUpLink
+{
+    color: rgb(0, 150, 255);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+.fieldset1
+{
+    margin: 0 auto;
+    text-align: left;
+    width: 70%;
+    background-color: lightgray;
+    border-width: 0ch;
+}
+
+#browseButton
+{
+    margin-left: 450px;
+    margin-top: 60px;
+    padding: 7px;
+    background-color: rgb(0, 150, 255);
+    color: aliceblue;
+    border: 0ch;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#addButton
+{
+    margin-left: 70px;
+    margin-top: 60px;
+    padding: 7px;
+    background-color: rgb(0, 150, 255);
+    color: aliceblue;
+    border: 0ch;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#inp1
+{
+    background-color: white;
+    border-color: rgb(0, 150, 255);
+    color: rgb(0, 150, 255);
+    height: 20px;
+    width: 300px;
+    margin-left: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divPage1
+{
+    margin-left: 100px;
+    color: rgb(0, 150, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
