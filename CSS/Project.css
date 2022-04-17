@@ -78,3 +78,27 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 50px;
 }
+
+.GoToImage
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    background-color: rgb(0, 150, 255);
+    color: aliceblue;
+    padding: 7px;
+}
+
+/* for making the images side by side */
+.column 
+{
+    float: left;
+    width: 25%;   
+}
+  
+  /* Clear floats after image containers */
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
