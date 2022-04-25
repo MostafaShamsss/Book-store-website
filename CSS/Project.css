@@ -29,6 +29,16 @@
     font-family: 'Courier New', Courier, monospace;   
 }
 
+.signButt
+{
+    margin-top: 60px;
+    font-size: 21px;
+    border: none;
+    background-color: rgb(0, 150, 255);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .fieldset1
 {
     margin: 0 auto;
@@ -60,7 +70,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#inp1
+.inp1
 {
     background-color: white;
     border-color: rgb(0, 150, 255);
@@ -69,6 +79,18 @@
     width: 300px;
     margin-left: 100px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inp2
+{
+    background-color: white;
+    border-color: rgb(0, 150, 255);
+    color: rgb(0, 150, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 20px;
+    width: 300px;
+    margin: 20px;
+    margin-top: 10px;
 }
 
 .divPage1
@@ -101,4 +123,30 @@
     content: "";
     clear: both;
     display: table;
+}
+
+.belowBar
+{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(0, 150, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fieldLogin
+{
+    
+    border: none;
+    margin-top: 50px;
+    color: rgb(0, 150, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#forgotPassButt
+{
+    color: rgb(0, 150, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 780px;
+    border: none;
+    background-color: white;
 }
