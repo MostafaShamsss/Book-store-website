@@ -150,6 +150,7 @@
     border: none;
     background-color: white;
 }
+
 #booklist
 {
     width:85%;
@@ -215,3 +216,17 @@
  {
     color: blue;
  }
+
+#tableMemberList
+{
+    border-color: rgb(0, 150, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 150, 255);
+    margin-top: 100px;
+    width: 950px;
+}
+
+.trMemberList
+{
+    border: none;
+}
