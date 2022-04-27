@@ -151,6 +151,72 @@
     background-color: white;
 }
 
+#booklist
+{
+    width:85%;
+    border-collapse:collapse;
+    border:none;
+    font-size:12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.booklistth
+{
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    border: none;
+}
+
+
+.booklistimg
+{
+ height: 200px;
+ width: 150px;
+ }
+
+ .BL_imgcell
+ {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    border: none;
+ }
+
+ .booklistinfo
+ {
+     vertical-align: center;
+     text-align: left;
+     font-size: 17px;
+     font-weight: bold;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     width: 500px;
+     color: rgb(0, 150, 255);
+     border: none;
+ }
+
+ .booklistname
+ {
+    text-align: center;
+    font-size: 20px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+.booknamelink
+{
+    color: rgb(0, 150, 255);
+}
+
+ .booknamelink:hover
+ {
+    color: gray;
+ }
+ .booknamelink:link
+ {
+    color: blue;
+ }
+
 #tableMemberList
 {
     border-color: rgb(0, 150, 255);
