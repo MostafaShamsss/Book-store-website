@@ -164,3 +164,16 @@
 {
     border: none;
 }
+.imgmember
+{
+    position: absolute;top: 200px; left: 400px; width: 200px; height: 192.2px;
+
+}
+#memberlist
+{
+    position: absolute;top: 200px; left: 700px; text-align: left    ;
+}
+#memberlisteditbutton
+{
+    position: absolute;top: 180px; left: 900px;
+}
