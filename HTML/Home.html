@@ -25,15 +25,21 @@
 
     </div>
 
-    <button id="browseButton">Browse Books</button>
-    <button id="addButton">Add Books</button>
-    <input type="text" placeholder="Enter book name here please.." class="inp1">
+    <input type="button" value="Browse Books" class="button"
+     style="margin-top: 60px; margin-left: 450px; padding: 7px" onclick="browseBooks()">
+
+    <input type="button" value="Add Books" class="button" 
+    style="margin-top: 60px; margin-left: 70px; padding: 7px">
+
+    <input type="text" placeholder="Enter book name here please.." id="inp1">
+
+    <p id="parrError"> </p>
 
     <div class="divPage1">
         <h2>Highest Rated</h2>
         <div class="row" style="margin-left: 40px;">
             <div class="column">
-                <img src="" alt="book1">
+                <img src="Book Images/The beginner's guide to Engineering.jfif" alt="book1">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -42,7 +48,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book2">
+                <img src="Book Images/Essential guide to Computer Engineering.jpeg" alt="book2">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -51,7 +57,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book3">
+                <img src="Book Images/Cyber Security.jpg" alt="book3">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -60,7 +66,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book4">
+                <img src="Book Images/Introduction to Cyber Security.png" alt="book4">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -75,7 +81,7 @@
         <h2>Recently added</h2>
         <div class="row" style="margin-left: 40px;">
             <div class="column">
-                <img src="" alt="book1">
+                <img src="Book Images/Computer Networking Beginner's Guide.jpg" alt="book1">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -84,7 +90,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book2">
+                <img src="Book Images/Advanced Computer Science.jpg" alt="book2">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -93,7 +99,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book3">
+                <img src="Book Images/Artificial Intelligence.jpg" alt="book3">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -102,7 +108,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book4">
+                <img src="Book Images/Encyclopedia of Computer Science and Technology.jpg" alt="book4">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -116,7 +122,7 @@
         <h2>Textbooks</h2>
         <div class="row" style="margin-left: 40px;">
             <div class="column">
-                <img src="" alt="book1">
+                <img src="Book Images/Computer Science Illuminated.jpg" alt="book1">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -125,7 +131,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book2">
+                <img src="Book Images/Higher Education Computer Science.jpg" alt="book2">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -134,7 +140,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book3">
+                <img src="Book Images/Dictionary of Computer Science.png" alt="book3">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -143,7 +149,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book4">
+                <img src="Book Images/Computer Graphics.jpg" alt="book4">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -157,7 +163,7 @@
         <h2>Novels</h2>
         <div class="row" style="margin-left: 40px;">
             <div class="column">
-                <img src="" alt="book1">
+                <img src="Book Images/Sleep Donation.jpg" alt="book1">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -166,7 +172,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book2">
+                <img src="Book Images/the silent patient.jpg" alt="book2">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -175,7 +181,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book3">
+                <img src="Book Images/leave the world behind.jpg" alt="book3">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -184,7 +190,7 @@
             </div>
 
             <div class="column">
-                <img src="" alt="book4">
+                <img src="Book Images/the light of recent events.jpg" alt="book4">
                 <figcaption>
                     <button class="GoToImage">
                         Go to book page
@@ -194,5 +200,6 @@
         </div>
     </div>
     
+    <script src="../JavaScript/Books.js"></script>
 </body>
 </html>
