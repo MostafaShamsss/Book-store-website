@@ -15,14 +15,15 @@ class Books
     }
 }
 
+
 var book1 = new Books("The beginner's guide to Engineering");
 var books = [book1];
 
-function addBooks()
-{
-    var newBook = new Books(inp.value);
-    books.push(newBook);
-}
+
+// function addBooks()
+// {
+//     books.push(new Books(inp.value));
+// }
 
 function browseBooks()
 {
@@ -33,13 +34,13 @@ function browseBooks()
         {
             output.innerHTML = "Sorry this book does not exist";    
             flag = false;
-            //link to the book page
-            //window.location.href = "http://facebook.com";
         }
     }
 
     if(flag)
     {
         output.innerHTML = "this book exists";
+        //link to the book results page
+        window.open("BookResults.html",'_blank');
     }
 }
