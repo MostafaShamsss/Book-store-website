@@ -210,11 +210,18 @@ img
     border-color: rgb(0, 150, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 150, 255);
-    margin-top: 100px;
+    margin-top: 20pt;
     width: 950px;
-    
+    margin-left: 200pt;
 }
 .tb tr{
     text-align:center;
 
+}
+
+.thResultsTable
+{
+    font-size: large;
+    height: 90pt;
+    width: 300pt;
 }
