@@ -163,4 +163,10 @@
 .trMemberList
 {
     border: none;
+    height: 80pt;
+}
+
+td,th
+{
+    border-color: rgb(0, 150, 255);
 }
