@@ -5,6 +5,23 @@
     vertical-align: middle;
 }
 
+
+.homeImages 
+{
+    animation: rotation 15s infinite linear;
+    margin: 20pt;
+}
+  
+@keyframes rotation {
+   from {      
+    transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
 .homeLink
 {
     color: rgb(0, 150, 255);
