@@ -2,9 +2,9 @@ var username = document.getElementById("username");
 var password = document.getElementById("password");
 
 
-function validateUsername (username)
+function validateUsername(username)
 {
-  let regexUsername = /^[a-z0-9_\.]+$/;
+  var regexUsername = /^[a-z0-9_\.]+$/;
   if (username.value.match(regexUsername)) 
   {
     return true; 
@@ -51,15 +51,15 @@ function setHint()
         flag = false;
     }
 
-    if(checkPassword(password)==0)
+    if(checkPassword(password)==0 && flag)
     {
-        alert("Please make sure your password is between 6 to 20 characters which contain at least one numeric digit, one uppercase and one lowercase letter.");
+        alert("Please make sure your password is between 6 to 20 characters which contains at least one numeric digit, one uppercase and one lowercase letter.");
         flag = false;
     }
 
     if((username.value.length != 0) && (password.value.length != 0) && flag)
     {
-        var hint = prompt("Please enter a hint in case you forgot your password", "from 1 to 5");
+        var hint = prompt("Please enter a hint in case you forgot your password", "ex. from 1 to 5");
         //save hint to the database with the user's email and password
     }
 
