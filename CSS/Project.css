@@ -338,3 +338,9 @@ img
     justify-content: space-between;
     margin-bottom: 60pt;
 }
+
+hr
+{
+    border-color: rgb(0, 150, 255);
+    width: 900pt;
+}
