@@ -32,7 +32,7 @@ function browseBooks()
     {
         if(inp.value.localeCompare(books[counter].getBook()))   //localCompare() returns 0 if the strings are equal and -1 if they are not equal
         {
-            output.innerHTML = "Sorry this book does not exist";    
+            alert("Sorry this book does not exist");    
             flag = false;
         }
     }
