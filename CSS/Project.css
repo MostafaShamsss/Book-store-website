@@ -241,7 +241,7 @@ img
 #booklist
 {
     border: none;
-    margin-left: 145pt;
+    margin-left: 165pt;
 }
 
 .booklistth
@@ -251,6 +251,17 @@ img
     padding: 20pt;
     width: 200pt;
     border: none;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.booklistth1
+{
+    font-size: 17pt;
+    color: rgb(0, 150, 255);
+    width: 200pt;
+    border: none;
+    padding-left: 22pt;
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -286,7 +297,7 @@ img
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 150, 255);
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .animateChar
@@ -316,4 +327,14 @@ img
   to {
     background-position: 200% center;
   }
+}
+
+#imagesBookList
+{
+    margin-left: 70pt;
+    margin-right: 70pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60pt;
 }
