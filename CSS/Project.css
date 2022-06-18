@@ -49,6 +49,8 @@
 .signButt
 {
     margin-top: 60px;
+    border-radius: 4px;
+    cursor : pointer;
     font-size: 21px;
     border: none;
     background-color: rgb(0, 150, 255);
